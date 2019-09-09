@@ -1,9 +1,6 @@
 /*
-
 Tooplate 2083 Steak House
-
 https://www.tooplate.com/view/2083-steak-house
-
 */
 
 body {
@@ -55,6 +52,10 @@ h3 {
 }
 #menu h3 {
    color: #555;
+}
+
+.dropdown{
+  color: #656565;
 }
 
 h4 {
