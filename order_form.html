@@ -63,11 +63,11 @@
         <span class="icon icon-bar"></span>
         <span class="icon icon-bar"></span>
       </button>
-      <a href="#" class="navbar-brand">Malaysia Prime Steak House</a>
+      <a href="./index.html" class="navbar-brand">Malaysia Prime Steak House</a>
     </div>
     <div class="collapse navbar-collapse">
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#top" class="smoothScroll">Home</a></li>
+        <li><a href="./index.html" class="smoothScroll">Home</a></li>
         <li><a href="#feature" class="smoothScroll">Features</a></li>
         <li><a href="#about" class="smoothScroll">About</a></li>
         <li class="dropdown">
@@ -106,10 +106,12 @@
 </section>
 <!-- End banner Area -->
 
+<section>
+
 	<!-- Start Sample Area -->
 	<section class="blog-section spad ">
 		<div class="container">
-				<form method="post" action="./Order.php">
+				<form method="post" action="order.php">
 					<div class="form-group">
 				    <label for="name">Name</label>
 				    <input name="fullname2" type="text" class="form-control" id="name" placeholder="ex. John Cena">
@@ -121,31 +123,31 @@
 
 
 		<!-- Appetizers -->
-  <br>
+  		<br>
 		<h3>Appetizers</h3>
 		<br>
 		<div class="container" id="Appetizers">
-  <div class="row">
-    <div class="col-sm fontsize-menu">
-			<img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
-			<div class="custom-control custom-checkbox my-1 mr-sm-2">
-    <input name="meal0" type="checkbox" class="custom-control-input" id="customControlInline">
-		<input type="hidden" name="name0" value="Chicken Sandwich">
-    <label class="custom-control-label" for="customControlInline">Chicken Sandwich
-</label>
-  </div>
-	<div class="form-group">
-		<label for="exampleFormControlSelect1">Quantity</label>
-		<select name="quantity0" class="form-control" id="exampleFormControlSelect1" style="max-width:17%;">
-			<option value="1">1</option>
-			<option value="2">2</option>
-			<option value="3">3</option>
-			<option value="4">4</option>
-			<option value="5">5</option>
-		</select>
+			<div class="row">
+				<div class="col-sm-4 fontsize-menu">
+						<img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
+						<div class="custom-control custom-checkbox my-1 mr-sm-2">
+				<input name="meal0" type="checkbox" class="custom-control-input" id="customControlInline">
+					<input type="hidden" name="name0" value="Chicken Sandwich">
+				<label class="custom-control-label" for="customControlInline">Chicken Sandwich
+			</label>
+			</div>
+				<div class="form-group">
+					<label for="exampleFormControlSelect1">Quantity</label>
+					<select name="quantity0" class="form-control" id="exampleFormControlSelect1" style="max-width:17%;">
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+						<option value="4">4</option>
+						<option value="5">5</option>
+					</select>
 	</div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
 			<img class="img-max-width" src="./images/gallery-img2.jpg" alt="" width="300px">
 			<div class="custom-control custom-checkbox my-1 mr-sm-2">
     <input name="meal1" type="checkbox" class="custom-control-input" id="customControlInline1">
@@ -163,7 +165,7 @@
 		</select>
 	</div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
 			<img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 			<div class="custom-control custom-checkbox my-1 mr-sm-2">
     <input name="meal2" type="checkbox" class="custom-control-input" id="customControlInline2" >
@@ -181,11 +183,12 @@
 		</select>
 	</div>
     </div>
-  </div>
+  
 </div>
-		<div class="container" id="Appetizers">
+</div>
+		<div class="container" id="Appetizer">
   <div class="row">
-    <div class="col-sm fontsize-menu">
+    <div class="col-sm-4 fontsize-menu">
 			<img class="img-max-width" src="./images/gallery-img4.jpg" alt="" width="300px">
 			<div class="custom-control custom-checkbox my-1 mr-sm-2">
     <input name="meal3" type="checkbox" class="custom-control-input" id="customControlInline3">
@@ -203,7 +206,7 @@
 		</select>
 	</div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
 			<img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 			<div class="custom-control custom-checkbox my-1 mr-sm-2">
     <input name="meal4" type="checkbox" class="custom-control-input" id="customControlInline4">
@@ -221,7 +224,7 @@
 		</select>
 	</div>
     </div>
-    <div class="col-sm">
+    <div class="col-sm-4">
 			<img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 			<div class="custom-control custom-checkbox my-1 mr-sm-2">
     <input name="meal5" type="checkbox" class="custom-control-input" id="customControlInline5" >
@@ -252,7 +255,7 @@
 <br>
  <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal6" type="checkbox" class="custom-control-input" id="Entrees1">
@@ -271,7 +274,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-6">
 	 <img class="img-max-width" src="./images/gallery-img2.jpg"" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal7" type="checkbox" class="custom-control-input" id="Entrees2">
@@ -293,7 +296,7 @@
  </div>
   <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal8" type="checkbox" class="custom-control-input" id="Entrees3">
@@ -345,9 +348,9 @@
 <br>
 <h3>Desserts</h3>
 <br>
- <div class="container" id="soup">
+ <div class="container" id="Soup">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	  <img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal10" type="checkbox" class="custom-control-input" id="soup78">
@@ -365,7 +368,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal11" type="checkbox" class="custom-control-input" id="soup2">
@@ -383,7 +386,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal12" type="checkbox" class="custom-control-input" id="soup3" >
@@ -403,7 +406,7 @@
  </div>
 </div>
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img2.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal13" type="checkbox" class="custom-control-input" id="soup4">
@@ -422,7 +425,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal14" type="checkbox" class="custom-control-input" id="soup5">
@@ -470,9 +473,9 @@
 <br>
 <h3>Sides</h3>
 <br>
- <div class="container" id="Soup">
+ <div class="container" id="Sides">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal16" type="checkbox" class="custom-control-input" id="Desserts16">
@@ -491,7 +494,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal17" type="checkbox" class="custom-control-input" id="Desserts17">
@@ -509,7 +512,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal18" type="checkbox" class="custom-control-input" id="Desserts18" >
@@ -529,7 +532,7 @@
  </div>
 </div>
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img2.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal19" type="checkbox" class="custom-control-input" id="Desserts19">
@@ -548,7 +551,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal20" type="checkbox" class="custom-control-input" id="Desserts20">
@@ -566,7 +569,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img4.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal21" type="checkbox" class="custom-control-input" id="Desserts21" >
@@ -597,7 +600,7 @@
 <br>
  <div class="container" id="Sides">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal22" type="checkbox" class="custom-control-input" id="Sides22">
@@ -616,7 +619,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal23" type="checkbox" class="custom-control-input" id="Sides23">
@@ -635,7 +638,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal24" type="checkbox" class="custom-control-input" id="Sides24" >
@@ -655,7 +658,7 @@
  </div>
 </div>
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-4 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img2.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal25" type="checkbox" class="custom-control-input" id="Sides25">
@@ -674,7 +677,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal26" type="checkbox" class="custom-control-input" id="Sides26">
@@ -694,7 +697,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-4">
 	 <img class="img-max-width" src="./images/gallery-img4.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal27" type="checkbox" class="custom-control-input" id="Sides27" >
@@ -724,7 +727,7 @@
 <br>
  <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal28" type="checkbox" class="custom-control-input" id="Entrees28">
@@ -743,7 +746,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-6">
 	 <img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal29" type="checkbox" class="custom-control-input" id="Entrees29">
@@ -765,7 +768,7 @@
  </div>
   <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img1.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal30" type="checkbox" class="custom-control-input" id="Entrees30">
@@ -784,7 +787,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-6">
 	 <img class="img-max-width" src="./images/gallery-img2.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal31" type="checkbox" class="custom-control-input" id="Entrees31">
@@ -816,7 +819,7 @@
 <br>
  <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img3.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal32" type="checkbox" class="custom-control-input" id="Entrees32">
@@ -835,7 +838,7 @@
  </select>
 </div>
  </div>
-  <div class="col-sm">
+  <div class="col-sm-6">
 	 <img class="img-max-width" src="./images/gallery-img4.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal33" type="checkbox" class="custom-control-input" id="Entrees33">
@@ -857,7 +860,7 @@
  </div>
   <div class="container" id="Entrees">
 <div class="row">
- <div class="col-sm fontsize-menu">
+ <div class="col-sm-6 fontsize-menu">
 	 <img class="img-max-width" src="./images/gallery-img5.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal34" type="checkbox" class="custom-control-input" id="Entrees34">
@@ -876,7 +879,7 @@
  </select>
 </div>
  </div>
- <div class="col-sm">
+ <div class="col-sm-6">
 	 <img class="img-max-width" src="./images/gallery-img6.jpg" alt="" width="300px">
 	 <div class="custom-control custom-checkbox my-1 mr-sm-2">
  <input name="meal35" type="checkbox" class="custom-control-input" id="Entrees35">
@@ -954,6 +957,7 @@
 			<p>&nbsp;</p>
 
 	<!-- End Sample Area -->
+</section>
 
 <!-- Footer section -->
 <footer>
